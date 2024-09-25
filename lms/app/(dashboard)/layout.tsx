@@ -1,6 +1,6 @@
 import { Logo } from "./_components/logo";
 import { Sidebar } from "./_components/sidebar";
-import { SidebarRoutes } from "./_components/sidebar_routes";
+import { SidebarRoutes } from "./_components/sidebar-routes";
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
