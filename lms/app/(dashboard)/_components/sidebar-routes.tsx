@@ -1,4 +1,4 @@
-"use client ";
+"use client";
 
 import { SidebarItem } from "./sidebar-item";
 import { Layout, Compass } from "lucide-react";
