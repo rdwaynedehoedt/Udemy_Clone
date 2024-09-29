@@ -37,7 +37,14 @@ export const SidebarItem = ({ icon: Icon, label, href }: SideBarItemProps) => {
           size={22}
           className={cn("text-slate-500", isActive && "text-sky-700")}
         />
+        {label}
       </div>
+      <div
+        className={cn(
+          "ml-auto opacity-0 bordar-2 bordar-shy-700 h-full tranition-all",
+          isActive && "opacity-100"
+        )}
+      />
     </Button>
   );
 };

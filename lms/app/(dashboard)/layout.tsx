@@ -9,11 +9,11 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
         <div className="p-6">
           <Logo />
         </div>
-        <div className="flex flex-col w-full">
+        <div className="hidden  md:flex h-full w-56 flex-col fixedinset-y-0 z-50 ">
           <SidebarRoutes />
         </div>
       </div>
-      {children}
+      <main className="md:pl-56 h-full">{children}</main>
     </div>
   );
 };
