@@ -1,9 +1,14 @@
-import { Menu, Sidebar } from "lucide-react";
+import { Menu,    } from "lucide-react";
 import {
   Sheet,
   SheetContent,
-  SheetTrigger
-} from "@/components/ui/sheet";
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+import { SidebarRoutes } from "./sidebar-routes";
+
 
 export const MobileSidebar = () => {
   return (
@@ -13,7 +18,7 @@ export const MobileSidebar = () => {
           <Menu />  
         </SheetTrigger>
         <SheetContent side="left" className="p-0 bg-white">
-          <Sidebar />
+          <SidebarRoutes />
         </SheetContent>
       </Sheet>
     </div>
