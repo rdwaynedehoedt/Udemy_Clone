@@ -1,5 +1,6 @@
 "use client";
 
+import { Logo } from "./logo";
 import { SidebarItem } from "./sidebar-item";
 import { Layout, Compass } from "lucide-react";
 
@@ -22,6 +23,9 @@ export const SidebarRoutes = () => {
 
   return (
     <div className="flex flex-col w-full ">
+      <div className="p-6">
+          <Logo />
+        </div>
       {routes.map((route) => (
         <SidebarItem
           key={route.href}

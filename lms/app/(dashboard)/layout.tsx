@@ -9,10 +9,8 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
       <div className=" h-[80px] md-pl-56 fixed inset-y-0 w-full z-50 ">
         <Navbar />
       </div>
-      <div className="md-flex h-full w -56 flex-col fixed inset-y-0 z-50">
-        <div className="p-6">
-          <Logo />
-        </div>
+    
+  <div className="md-flex h-full w -56 flex-col fixed inset-y-0 z-50">
         <div className="hidden  md:flex h-full w-56 flex-col fixedinset-y-0 z-50 ">
           <SidebarRoutes />
         </div>
