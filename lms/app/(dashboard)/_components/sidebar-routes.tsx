@@ -23,13 +23,13 @@ const teacherRoutes = [
   {
     icon: List,
     label: "Courses",
-    href: "/teachers/courses",
+    href: "/teacher/courses",
   },
 
   {
     icon: BarChart ,
-    label: "Analytis",
-    href: "/teachers/analytis ",
+    label: "Analytics",
+    href: "/teacher/analytics ",
   },
 ]
 
