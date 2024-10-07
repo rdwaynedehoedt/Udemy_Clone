@@ -80,7 +80,7 @@ const CreatePage = () => {
                           />
                           <div className="flex item-center gap-x-2">
                             <Link href="/teacher/courses">
-                            <Button type="button"  variant="ghost">
+                            <Button type="button"  variant="cancel">
                                 Cancel
                             </Button>
                             </Link>
