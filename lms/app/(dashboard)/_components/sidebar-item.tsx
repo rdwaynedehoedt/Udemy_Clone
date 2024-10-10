@@ -21,6 +21,7 @@ export const SidebarItem = ({ icon: Icon, label, href }: SideBarItemProps) => {
   const onClick = () => {
     router.push(href);
   };
+  
 
   return (
     <Button
